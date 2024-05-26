@@ -10,3 +10,4 @@ const value ={
 const token = jwt.sign(value, "secret");
 console.log(token);
 // the token generated using this secret or we can say the token can only be varified using this secret
+//even if we loose the name and the accountNumber still the 'secret' token will not varify
