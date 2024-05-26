@@ -9,3 +9,4 @@ const value ={
 //jwt
 const token = jwt.sign(value, "secret");
 console.log(token);
+// the token generated using this secret or we can say the token can only be varified using this secret
